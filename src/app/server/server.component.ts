@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-server', // unick selector name
+  selector: 'app-server',
   templateUrl: './server.component.html'
 })
 
