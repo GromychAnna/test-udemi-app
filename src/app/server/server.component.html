@@ -1,2 +1,3 @@
-<p>Service with id {{ serverId }} is {{ getServerStatus() }}</p>
+<p [ngStyle]="{'background-color': getColor()}">Service with id {{ serverId }} is {{ getServerStatus() }}</p>
+<!--also ve can write  [ngStyle]="{backgroundColor: getColor()}"  -->
 
