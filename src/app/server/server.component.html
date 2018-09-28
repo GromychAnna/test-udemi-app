@@ -1,3 +1,6 @@
-<p [ngStyle]="{'background-color': getColor()}">Service with id {{ serverId }} is {{ getServerStatus() }}</p>
-<!--also ve can write  [ngStyle]="{backgroundColor: getColor()}"  -->
+<p
+  [ngStyle]="{'background-color': getColor()}"
+  [ngClass]="{onlone: serverStatus === 'online'}">
+  Service with id {{ serverId }} is {{ getServerStatus() }}
+</p>
 
